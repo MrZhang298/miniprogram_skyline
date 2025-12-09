@@ -1,3 +1,4 @@
 <!--index.wxml-->
 <navigation-bar title="我的" back="{{false}}" color="black" background="#FFFFFF"></navigation-bar>
 <!-- 公共页面 背景色为灰色 -->
+<custom-tab-bar />

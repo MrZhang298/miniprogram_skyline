@@ -9,3 +9,4 @@
   <view>{{ acceptDataFromOpenedPage }}</view>
   <view>{{ loopText }}</view>
 </custom-view-main>
+<custom-tab-bar />

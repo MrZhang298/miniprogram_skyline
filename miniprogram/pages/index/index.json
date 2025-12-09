@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "navigation-bar": "/components/navigation-bar/navigation-bar",
-    "custom-view-main": "/components/custom-view-main/custom-view-main"
+    "custom-view-main": "/components/custom-view-main/custom-view-main",
+    "custom-tab-bar": "/components/custom-tab-bar/index"
   }
 }
