@@ -1,0 +1,62 @@
+# 依赖目录
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编译输出
+dist/
+build/
+*.js
+*.js.map
+
+# 微信小程序相关
+miniprogram/miniprogram_npm/
+
+# 编辑器相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# TypeScript 编译缓存
+*.tsbuildinfo
+
+# 微信开发者工具生成的文件
+*.wx
+log.json
+#project.private.config.json
+
+# 测试相关
+coverage/
+.nyc_output/
+
+# 包管理器文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 调试文件
+.vscode-test/
+
+# 性能分析文件
+*.cpuprofile
+*.heapprofile
+
