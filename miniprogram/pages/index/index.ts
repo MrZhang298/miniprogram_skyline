@@ -8,12 +8,6 @@ Page({
     acceptDataFromOpenedPage: '',
     loopText: ''
   },
-  hideTabBar() {
-    wx.hideTabBar({ animation: true }).then()
-  },
-  showTabBar() {
-    wx.showTabBar({ animation: true }).then()
-  },
   toEmitMessagePage() {
     wx.navigateTo({
       url: '/pages/emit-message/index',

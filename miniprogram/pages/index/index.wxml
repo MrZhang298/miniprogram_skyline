@@ -2,8 +2,6 @@
 <navigation-bar title="首页" homeButton="{{true}}" color="black" background="#FFFFFF" ></navigation-bar>
 <!-- 公共页面 背景色为灰色 -->
 <custom-view-main>
-  <button bindtap="hideTabBar">隐藏tabBar</button>
-  <button bindtap="showTabBar">显示tabBar</button>
   <button bindtap="toEmitMessagePage">前往emitMessage</button>
   <button bindtap="loopTextFnc">循环文本</button>
   <view>{{ acceptDataFromOpenedPage }}</view>
