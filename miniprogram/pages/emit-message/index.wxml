@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<navigation-bar title="首页" back="{{true}}" color="black" background="#FFFFFF" delta="{{1}}"></navigation-bar>
+<!-- 公共页面 背景色为灰色 -->
+<custom-view-main>
+  <view>emit-message</view>
+  <view>{{ emitMessage }}</view>
+  <button bindtap="sendMessage">发送消息</button>
+</custom-view-main>

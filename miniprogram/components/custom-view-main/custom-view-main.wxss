@@ -1,0 +1,5 @@
+.custom-view-main {
+  height: 100vh;
+  background-color: #cccccc;
+  padding: 10px 20px;
+}

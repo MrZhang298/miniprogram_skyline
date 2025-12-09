@@ -1,0 +1,4 @@
+<!-- 公共页面 背景色为灰色 -->
+<view class="custom-view-main">
+  <slot />
+</view>

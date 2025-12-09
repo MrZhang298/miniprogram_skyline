@@ -1,11 +1,25 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/emit-message/index",
+    "pages/person/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_active.png"
+    },{
+      "pagePath": "pages/person/index",
+      "text": "我的",
+      "iconPath": "image/person.png",
+      "selectedIconPath": "image/person_active.png"
+    }]
   },
   "style": "v2",
   "renderer": "skyline",
